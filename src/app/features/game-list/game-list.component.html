@@ -1,0 +1,11 @@
+<div class="game-wrapper">
+  @for (game of gameService.filteredGames(); track game.name) {
+  @if(game) {
+  <app-game-card
+  [url]=game.image
+  [name]=game.name
+  [tags]=game.tags
+  ></app-game-card>
+  }
+  }
+  </div>

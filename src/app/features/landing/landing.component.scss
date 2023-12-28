@@ -1,0 +1,19 @@
+:host {
+  .layout {
+    padding-left: 84.62px;
+    padding-bottom: 12px;
+
+    img {
+      border-radius: 6px;
+      max-height: 420px;
+      margin-block: 8px;
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+
+    .filter-layout {
+      margin-bottom: 12px;
+    }
+  }
+}

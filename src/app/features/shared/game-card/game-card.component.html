@@ -1,0 +1,14 @@
+<div class="game-card">
+  <img [src]="url" width="216" height="140" [alt]="name">
+  <div class="game-title">
+    <span>{{ name }}</span>
+  </div>
+  <button class="play-game">Play</button>
+  @if (tags.length) {
+   <div class="tags-wrapper">
+     @for (tag of tags; track tag) {
+  <span class="tag">{{ tag }}</span>
+    }
+  </div>
+  }
+</div>
